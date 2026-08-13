@@ -1,33 +1,34 @@
-# Astro Starter Kit: Minimal
+# Harishanker Tripathi — Portfolio
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Personal portfolio website built with **Astro** and **Tailwind CSS**, deployed to **GitHub Pages**.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Live Site
 
-## 🚀 Project Structure
+**https://harishankert.github.io/PortFoilo/**
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🛠️ Tech Stack
+
+- **Astro 7.x** — static site generator
+- **Tailwind CSS 4.x** — utility-first styling
+- **TypeScript** — strict mode
+- **Node.js** ≥ 22.12.0
+
+## 📁 Project Structure
 
 ```text
 /
-├── public/
+├── public/              # Static assets (favicon, robots.txt, sitemap, llms.txt)
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── components/      # Section components (Hero, About, Skills, etc.)
+│   ├── layouts/         # Layout.astro (SEO, nav, global shell)
+│   ├── pages/           # index.astro (single page)
+│   └── styles/          # global.css (design tokens, utilities)
+├── .github/workflows/   # GitHub Actions deployment workflow
+├── astro.config.mjs     # Astro config (site, base, output)
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
 ## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -36,8 +37,36 @@ All commands are run from the root of the project, from a terminal:
 | `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 🚢 Deployment
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+This project uses **GitHub Actions** to automatically build and deploy to GitHub Pages on every push to `main`.
+
+### How it works
+
+1. Push changes to the `main` branch
+2. The `.github/workflows/deploy.yml` workflow runs automatically
+3. The workflow builds the site with `npm run build`
+4. The built `dist/` output is deployed to GitHub Pages
+
+### Manual deployment
+
+You can also trigger the workflow manually from the **Actions** tab in the GitHub repository.
+
+### Configuration notes
+
+- `astro.config.mjs` uses `base: '/PortFoilo/'` to match the repository name
+- GitHub Pages is configured with **build_type: workflow** (deploy from GitHub Actions)
+- The site URL is `https://harishankert.github.io/PortFoilo/`
+
+## 🔍 SEO & AI Discovery
+
+- `public/robots.txt` — allows all major search engines and AI crawlers
+- `public/sitemap.xml` — sitemap for search engines
+- `public/llms.txt` — structured plain-text profile for AI agents and LLMs
+- JSON-LD structured data (Person schema) in `Layout.astro`
+- Open Graph and Twitter Card meta tags
+
+## 📄 License
+
+© 2026 Harishanker Tripathi. All rights reserved.
