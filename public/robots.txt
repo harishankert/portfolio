@@ -20,4 +20,4 @@ Allow: /
 # Human-readable AI summary
 # See /llms.txt for a structured plain-text profile for AI agents
 
-Sitemap: https://harishankert.github.io/PortFoilo/sitemap.xml
+Sitemap: https://harishankert.github.io/PortFolio/sitemap.xml

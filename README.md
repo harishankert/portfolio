@@ -4,7 +4,7 @@ Personal portfolio website built with **Astro** and **Tailwind CSS**, deployed t
 
 ## 🚀 Live Site
 
-**https://harishankert.github.io/PortFoilo/**
+**https://harishankert.github.io/PortFolio/**
 
 ## 🛠️ Tech Stack
 
@@ -55,9 +55,9 @@ You can also trigger the workflow manually from the **Actions** tab in the GitHu
 
 ### Configuration notes
 
-- `astro.config.mjs` uses `base: '/PortFoilo/'` to match the repository name
+- `astro.config.mjs` uses `base: '/PortFolio/'` to match the repository name
 - GitHub Pages is configured with **build_type: workflow** (deploy from GitHub Actions)
-- The site URL is `https://harishankert.github.io/PortFoilo/`
+- The site URL is `https://harishankert.github.io/PortFolio/`
 
 ## 🔍 SEO & AI Discovery
 
