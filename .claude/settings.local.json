@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(uipro init *)",
+      "Bash(npm create *)",
+      "Bash(mv awesome-astronaut/* awesome-astronaut/.* . 2>/dev/null; ls -la)",
+      "Bash(npx astro *)",
+      "Bash(npm run *)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot"
+    ],
+    "additionalDirectories": [
+      "/Users/harishanker.tripathi/Developer/Portfolio/awesome-astronaut"
+    ]
+  }
+}

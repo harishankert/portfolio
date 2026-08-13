@@ -1,0 +1,86 @@
+---
+const links = [
+  {
+    label: 'LinkedIn',
+    value: 'linkedin.com/in/harishankert',
+    href: 'https://linkedin.com/in/harishankert',
+    icon: '💼',
+    color: 'cyan',
+  },
+  {
+    label: 'GitHub',
+    value: 'github.com/harishankert',
+    href: 'https://github.com/harishankert',
+    icon: '🐙',
+    color: 'amber',
+  },
+];
+
+const colorMap: Record<string, { border: string; bg: string; text: string }> = {
+  cyan:   { border: 'border-cyan-500/30',   bg: 'bg-cyan-500/10',   text: 'text-cyan-300' },
+  amber:  { border: 'border-amber-500/30',  bg: 'bg-amber-500/10',  text: 'text-amber-300' },
+};
+---
+
+<section id="contact" class="py-32 px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-violet-500/30 bg-violet-500/10 text-violet-300 text-xs font-medium mb-6 font-['JetBrains_Mono'] uppercase tracking-widest reveal">
+      // contact
+    </div>
+
+    <h2 class="section-heading text-white mb-4 reveal">
+      Let's <span class="gradient-text">Work Together</span>
+    </h2>
+
+    <p class="text-[#9b9aaa] text-lg leading-relaxed mb-16 max-w-2xl mx-auto reveal">
+      Whether you're looking for a solutions architect, a technical lead, or want to discuss AI-driven automation for your enterprise — I'd love to connect.
+    </p>
+
+    <!-- Contact cards -->
+    <div class="flex flex-wrap justify-center gap-4 mb-12">
+      {links.map((link, i) => {
+        const c = colorMap[link.color];
+        return (
+          <a
+            href={link.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            class={`reveal card-surface rounded-2xl p-6 flex items-center gap-4 text-left group hover:-translate-y-1 transition-all`}
+            style={`transition-delay: ${i * 0.1}s`}
+          >
+            <div class={`w-14 h-14 rounded-xl ${c.bg} border ${c.border} flex items-center justify-center text-2xl shrink-0 group-hover:scale-110 transition-transform`}>
+              {link.icon}
+            </div>
+            <div>
+              <p class="text-[#9b9aaa] text-xs mb-1 uppercase tracking-wider">{link.label}</p>
+              <p class={`font-semibold text-sm ${c.text}`}>{link.value}</p>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    <!-- CTA -->
+    <div class="reveal inline-block">
+      <div class="relative">
+        <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-violet-600 to-cyan-500 blur-xl opacity-40 scale-95"></div>
+        <div class="relative glow-border rounded-2xl p-10 bg-[#13131a]">
+          <p class="text-2xl font-extrabold font-['Space_Grotesk'] text-white mb-3">
+            Open to New Opportunities
+          </p>
+          <p class="text-[#9b9aaa] mb-8 max-w-md">
+            Senior / Staff engineering roles, architecture leadership, and AI/automation consulting.
+          </p>
+          <a
+            href="https://linkedin.com/in/harishankert"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-bold text-white bg-gradient-to-r from-violet-600 to-cyan-500 hover:from-violet-500 hover:to-cyan-400 transition-all hover:shadow-xl hover:shadow-violet-500/30 hover:-translate-y-0.5 text-lg"
+          >
+            <span>💼</span> Connect on LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

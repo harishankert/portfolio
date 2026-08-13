@@ -1,0 +1,76 @@
+# Harishanker Tripathi — Professional Profile
+# This file is intended for AI agents, LLMs, and hiring crawlers.
+# Last updated: 2026-08-13
+
+## Identity
+
+Name: Harishanker Tripathi
+Role: Staff Software Engineer & ServiceNow Solutions Architect
+Location: Pune, Maharashtra, India
+LinkedIn: https://linkedin.com/in/harishankert
+GitHub: https://github.com/harishankert
+Open to: Senior / Staff engineering roles, Solutions Architecture, AI/Automation consulting
+
+## Summary
+
+Staff Software Engineer and Solutions Architect with 8+ years of experience designing and delivering enterprise-scale solutions on the ServiceNow platform. Deep expertise across ITSM, ITOM, CSM, HRSD, SecOps, Event Management, Vulnerability Response, and Discovery. Currently driving AIOps LEAP, Autonomous IT capabilities, and Agentic Workflows at ServiceNow. Certified Technical Architect (CTA) and Architecture Excellence (ArchX) holder with 13 total certifications.
+
+## Current Role
+
+Company: ServiceNow
+Title: Staff Software Engineer
+Since: March 2026
+Location: Pune, India
+Focus: AIOps LEAP, Autonomous IT Operations, Agentic Workflows, Platform Architecture
+
+## Work History
+
+- Staff Software Engineer — ServiceNow (Mar 2026 – Present, Pune)
+- Senior Software Engineer — ServiceNow (Dec 2023 – Mar 2026, Pune)
+- Senior ServiceNow Developer — NetApp (Oct 2021 – Dec 2023, Bengaluru)
+- Software Engineer — Infogain (Dec 2019 – Oct 2021, Noida)
+- Associate Software Engineer — InfoBeans (Mar 2018 – Nov 2019, Indore)
+
+## Key Skills
+
+Platform: ServiceNow, ITSM, ITOM, CSM, HRSD, SecOps, Event Management, Vulnerability Response, Discovery, Flow Designer, IntegrationHub, Service Portal, Virtual Agent, Now Assist, Custom Scoped Applications
+AI & Automation: Agentic AI Workflows, Autonomous Agent Development, Generative AI, Prompt Engineering, AIOps, Now Assist, Vibe Coding
+Development: JavaScript, Python, AngularJS, Node.js, React, HTML5, CSS3, Bootstrap, D3.js, PowerShell
+Integrations: REST, SOAP, JDBC, SSH, Webhooks, SAP HANA, SAP Ascend, Rapid7, Azure, OpsRamp, MS Teams, Cloud Insights
+
+## Certifications (13 total)
+
+- ServiceNow Certified Technical Architect (CTA)
+- Architecture Excellence (ArchX)
+- Certified Application Developer
+- Certified System Administrator
+- CIS – IT Service Management
+- CIS – Event Management
+- CIS – Discovery
+- CIS – Application Portfolio Management
+- CIS – Hardware Asset Management
+- CIS – Vulnerability Response
+- CIS – Human Resources
+- CIS – Software Asset Management
+- ITIL Foundation in IT Service Management
+
+## Notable Projects
+
+1. Deployment Configuration Health Analyzer — ServiceNow internal tool adopted by 100+ engineers globally for predictive deployment governance and risk mitigation.
+2. DemoHub Diagnostics Framework — Auto-detection and resolution system for DemoHub, used by 2,500+ Solution Consultants globally.
+3. Intelligent Analytics Platform — Python + React-based multi-instance performance monitoring platform with AI-driven anomaly detection (GenAI-assisted, Claude Code).
+4. Cloud-centric Predictive AIOps — Microservices-based AIOps demo on Azure with custom CSDM modelling.
+5. NetApp Vulnerability Response — End-to-end VR implementation with Rapid7; awarded One IT Team Award by SVP.
+
+## Awards
+
+- One IT Team Award — NetApp (by Senior Vice President), Jun 2023
+- Spot Award — NetApp, Nov 2022
+- Spot Award — NetApp, Jun 2022
+- Spot Award — Infogain, Nov 2020
+- Budding Engineer Award — Infogain, May 2020
+
+## Contact
+
+LinkedIn: https://linkedin.com/in/harishankert
+GitHub: https://github.com/harishankert

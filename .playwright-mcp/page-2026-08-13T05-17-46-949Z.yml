@@ -1,0 +1,406 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "HT" [ref=e4] [cursor=pointer]:
+        - /url: "#hero"
+      - generic [ref=e5]:
+        - link "About" [ref=e6] [cursor=pointer]:
+          - /url: "#about"
+        - link "Skills" [ref=e7] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Experience" [ref=e8] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Projects" [ref=e9] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Certs" [ref=e10] [cursor=pointer]:
+          - /url: "#certifications"
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: "#contact"
+      - link "Hire Me" [ref=e12] [cursor=pointer]:
+        - /url: https://linkedin.com/in/harishankert
+  - main [ref=e13]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: Staff Software Engineer · ServiceNow
+          - heading "Harish anker Tripathi" [level=1] [ref=e20]: HarishankerTripathi
+          - paragraph [ref=e21]: Staff Software Engineer and Solutions Architect with 8+ years delivering enterprise-scale solutions across ITSM, ITOM, CSM, HRSD, SecOps, Event Management, Vulnerability Response, Discovery, and Agentic Workflows — building intelligent, autonomous systems that drive real operational impact.
+        - generic [ref=e22]:
+          - link "View Projects" [ref=e23] [cursor=pointer]:
+            - /url: "#projects"
+          - link "LinkedIn ↗" [ref=e24] [cursor=pointer]:
+            - /url: https://linkedin.com/in/harishankert
+          - link "GitHub ↗" [ref=e25] [cursor=pointer]:
+            - /url: https://github.com/harishankert
+      - generic [ref=e26]:
+        - generic [ref=e27]: HT
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: Harishanker Tripathi
+          - paragraph [ref=e30]: "@ServiceNow"
+        - generic [ref=e31]:
+          - generic [ref=e32]: CTA · ArchX
+          - generic [ref=e34]: Agentic AI
+          - generic [ref=e36]: Now Assist
+          - generic [ref=e38]: ITSM · ITOM
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: 8+
+        - paragraph [ref=e42]: Years of Experience
+      - generic [ref=e43]:
+        - paragraph [ref=e44]: "13"
+        - paragraph [ref=e45]: Certifications
+      - generic [ref=e46]:
+        - paragraph [ref=e47]: "5"
+        - paragraph [ref=e48]: Industry Awards
+      - generic [ref=e51]:
+        - paragraph [ref=e52]: Currently building
+        - paragraph [ref=e53]: Intelligent Analytics Platform
+        - generic [ref=e54]: Active
+    - generic [ref=e59]:
+      - generic [ref=e60]: // about
+      - generic [ref=e63]:
+        - heading "Building Intelligent Enterprise Systems" [level=2] [ref=e64]
+        - paragraph [ref=e65]: I'm a Staff Software Engineer and Solutions Architect at ServiceNow, designing scalable enterprise solutions that power next-generation IT operations. I specialise in bridging complex business requirements with elegant platform solutions — from architecture to autonomous AI agents.
+        - paragraph [ref=e66]: My work spans custom scoped applications, sophisticated integrations, and AI-driven automation. Currently driving AIOps LEAP and building intelligent analytics platforms with GenAI-assisted development.
+      - generic [ref=e67]:
+        - generic [ref=e68]: 🤖
+        - heading "Agentic AI" [level=3] [ref=e69]
+        - paragraph [ref=e70]: Autonomous agent systems, Now Assist, AIOps, self-healing workflows.
+      - generic [ref=e71]:
+        - generic [ref=e72]: 🏗️
+        - heading "Architecture" [level=3] [ref=e73]
+        - paragraph [ref=e74]: Cross-BU platform design, governance, and reusable scalable solutions.
+      - generic [ref=e75]:
+        - generic [ref=e76]: ⚡
+        - heading "Performance" [level=3] [ref=e77]
+        - paragraph [ref=e78]: 50%+ instance performance gains through deep analysis and tuning.
+      - generic [ref=e79]:
+        - generic [ref=e80]: 🔗
+        - heading "Integrations" [level=3] [ref=e81]
+        - paragraph [ref=e82]: REST, SOAP, JDBC, SSH, PowerShell — SAP, Azure, Rapid7, and more.
+    - generic [ref=e85]:
+      - generic [ref=e86]: // skills
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: ⚙️
+          - heading "ServiceNow Platform" [level=3] [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e94]: ITSM
+          - generic [ref=e96]: ITOM
+          - generic [ref=e98]: CSM
+          - generic [ref=e100]: HRSD
+          - generic [ref=e102]: SecOps
+          - generic [ref=e104]: Event Management
+          - generic [ref=e106]: Discovery
+          - generic [ref=e108]: Vulnerability Response
+          - generic [ref=e110]: Flow Designer
+          - generic [ref=e112]: IntegrationHub
+          - generic [ref=e114]: Service Portal
+          - generic [ref=e116]: Virtual Agent
+          - generic [ref=e118]: Now Assist
+          - generic [ref=e120]: Custom Scoped Apps
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - generic [ref=e124]: 🤖
+          - heading "AI & Automation" [level=3] [ref=e125]
+        - generic [ref=e126]:
+          - generic [ref=e127]: Agentic AI Workflows
+          - generic [ref=e129]: Autonomous Agent Dev
+          - generic [ref=e131]: Generative AI
+          - generic [ref=e133]: Prompt Engineering
+          - generic [ref=e135]: AIOps
+          - generic [ref=e137]: Vibe Coding
+      - generic [ref=e139]:
+        - generic [ref=e140]:
+          - generic [ref=e141]: 💻
+          - heading "Development" [level=3] [ref=e142]
+        - generic [ref=e143]:
+          - generic [ref=e144]: JavaScript
+          - generic [ref=e146]: Python
+          - generic [ref=e148]: AngularJS
+          - generic [ref=e150]: Node.js
+          - generic [ref=e152]: React
+          - generic [ref=e154]: HTML5
+          - generic [ref=e156]: CSS3
+          - generic [ref=e158]: Bootstrap
+          - generic [ref=e160]: D3.js
+          - generic [ref=e162]: PowerShell
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: 🔗
+          - heading "Integrations & Protocols" [level=3] [ref=e167]
+        - generic [ref=e168]:
+          - generic [ref=e169]: REST APIs
+          - generic [ref=e171]: SOAP
+          - generic [ref=e173]: JDBC
+          - generic [ref=e175]: SSH
+          - generic [ref=e177]: Webhooks
+          - generic [ref=e179]: MS Teams
+          - generic [ref=e181]: Azure
+          - generic [ref=e183]: SAP HANA
+          - generic [ref=e185]: SAP Ascend
+          - generic [ref=e187]: Rapid7
+          - generic [ref=e189]: OpsRamp
+          - generic [ref=e191]: Cloud Insights
+          - generic [ref=e193]: NVD
+          - generic [ref=e195]: pysnow
+      - generic [ref=e197]:
+        - heading "Core Proficiency" [level=3] [ref=e198]
+        - generic [ref=e199]:
+          - paragraph [ref=e201]: ServiceNow Platform
+          - paragraph [ref=e205]: Enterprise Integrations
+          - paragraph [ref=e209]: Flow Designer / IntegrationHub
+          - paragraph [ref=e213]: Agentic AI / Now Assist
+          - paragraph [ref=e217]: JavaScript / AngularJS
+          - paragraph [ref=e221]: Prompt Engineering
+          - paragraph [ref=e225]: Python
+          - paragraph [ref=e229]: ITSM / ITOM Architecture
+    - generic [ref=e234]:
+      - generic [ref=e235]: // experience
+      - generic [ref=e240]:
+        - generic [ref=e241]:
+          - generic [ref=e242]:
+            - text: Current
+            - heading "Staff Software Engineer" [level=3] [ref=e243]
+            - paragraph [ref=e244]: ServiceNow
+          - generic [ref=e245]:
+            - paragraph [ref=e246]: Mar 2026 – Present
+            - paragraph [ref=e247]: Pune
+        - list [ref=e248]:
+          - listitem [ref=e249]: Architected Deployment Configuration Health Analyzer — adopted by 100+ engineers globally
+          - listitem [ref=e251]: "Implemented AIOps LEAP & Autonomous IT: event correlation, anomaly detection, self-healing"
+          - listitem [ref=e253]: Achieved 50%+ improvement in ServiceNow instance performance
+          - listitem [ref=e255]: Built Python + React intelligent analytics platform with GenAI-assisted development
+          - listitem [ref=e257]: Led cross-BU technical initiatives for architecture alignment
+      - generic [ref=e259]:
+        - generic [ref=e260]:
+          - heading "Senior Software Engineer" [level=3] [ref=e261]
+          - paragraph [ref=e262]: ServiceNow
+          - paragraph [ref=e263]: Dec 2023 – Mar 2026
+        - list [ref=e264]:
+          - listitem [ref=e265]: Led Technical Governance Board for Tx WF in DemoHub
+          - listitem [ref=e267]: Spearheaded 30+ ITOM demo narratives for 2,500+ Solution Consultants globally
+          - listitem [ref=e269]: Architected Diagnostics Framework Application with Flows, ATF, and scripting
+          - listitem [ref=e271]: Developed Cloud-centric Predictive AIOps demo on Azure with custom CSDM modelling
+          - listitem [ref=e273]: Worked on Agentic AI for ITOM + CMDB
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - heading "Senior ServiceNow Developer" [level=3] [ref=e277]
+          - paragraph [ref=e278]: NetApp
+          - paragraph [ref=e279]: Oct 2021 – Dec 2023
+        - list [ref=e280]:
+          - listitem [ref=e281]: End-to-end Vulnerability Response with Rapid7 — won One IT Team Award by SVP
+          - listitem [ref=e283]: Implemented AWA, Agent Chat and Sidebar replacing Connect Support
+          - listitem [ref=e285]: Cloud Insights integration via Python (pysnow) on Linux servers
+          - listitem [ref=e287]: Custom Hardware Asset Management application
+          - listitem [ref=e289]: MS Teams integration for MID server monitoring
+      - generic [ref=e291]:
+        - generic [ref=e292]:
+          - heading "Software Engineer" [level=3] [ref=e293]
+          - paragraph [ref=e294]: Infogain
+          - paragraph [ref=e295]: Dec 2019 – Oct 2021
+        - list [ref=e296]:
+          - listitem [ref=e297]: SAP HANA integration via REST, PowerShell and JDBC
+          - listitem [ref=e299]: SAP Ascend platform integration for CRUD and access automation
+          - listitem [ref=e301]: CSM and ITSM modules from scratch
+          - listitem [ref=e303]: Internationalization with dynamic email translation
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - heading "Associate Software Engineer" [level=3] [ref=e307]
+          - paragraph [ref=e308]: InfoBeans
+          - paragraph [ref=e309]: Mar 2018 – Nov 2019
+        - list [ref=e310]:
+          - listitem [ref=e311]: ServiceNow platform implementation and administration
+          - listitem [ref=e313]: Service Portal widgets with inter-widget communication for DHL Prague
+          - listitem [ref=e315]: Custom Scoped Application with Reporting Cloud integration
+          - listitem [ref=e317]: Catalog Items, Workflows, Client Scripts, Business Rules, ACLs
+    - generic [ref=e321]:
+      - generic [ref=e322]: // projects
+      - generic [ref=e325]:
+        - generic [ref=e326]:
+          - generic [ref=e327]: 🔍
+          - generic [ref=e328]:
+            - paragraph [ref=e329]: Jan – Mar 2026
+            - paragraph [ref=e330]: ServiceNow
+        - heading "Deployment Configuration Health Analyzer" [level=3] [ref=e331]
+        - generic [ref=e332]:
+          - generic [ref=e333]: Platform Architecture
+          - generic [ref=e334]: 100+ engineers · Global scale
+        - paragraph [ref=e335]: Intelligent application evaluating deployment quality, impact, and best-practice adherence — enabling predictive governance across DemoHub environments.
+        - generic [ref=e336]:
+          - generic [ref=e337]: ServiceNow
+          - generic [ref=e338]: Flow Designer
+          - generic [ref=e339]: ATF
+          - generic [ref=e340]: Governance
+      - generic [ref=e341]:
+        - generic [ref=e342]:
+          - generic [ref=e343]: 🛠️
+          - generic [ref=e344]:
+            - paragraph [ref=e345]: Feb 2024 – Aug 2025
+            - paragraph [ref=e346]: ServiceNow
+        - heading "DemoHub Diagnostics Framework" [level=3] [ref=e347]
+        - generic [ref=e348]:
+          - generic [ref=e349]: Automation
+          - generic [ref=e350]: 2,500+ SCs · 10,000+ uses
+        - paragraph [ref=e351]: Auto-detects and resolves DemoHub issues using Flows, ATF, and custom scripting — improving demo reliability for Solution Consultants globally.
+        - generic [ref=e352]:
+          - generic [ref=e353]: ServiceNow
+          - generic [ref=e354]: Flow Designer
+          - generic [ref=e355]: ATF
+          - generic [ref=e356]: Scripting
+      - generic [ref=e357]:
+        - generic [ref=e358]:
+          - generic [ref=e359]: 📊
+          - generic [ref=e360]:
+            - paragraph [ref=e361]: 2025 – Present
+            - paragraph [ref=e362]: ServiceNow
+        - heading "Intelligent Analytics Platform" [level=3] [ref=e363]
+        - generic [ref=e364]:
+          - generic [ref=e365]: AI · Python · React
+          - generic [ref=e366]: Multi-instance · Real-time
+        - paragraph [ref=e367]: Python + React platform for multi-instance ServiceNow monitoring with real-time anomaly detection. Built with GenAI-assisted development using Claude Code.
+        - generic [ref=e368]:
+          - generic [ref=e369]: Python
+          - generic [ref=e370]: React
+          - generic [ref=e371]: Claude Code
+          - generic [ref=e372]: GenAI
+      - generic [ref=e373]:
+        - generic [ref=e374]:
+          - generic [ref=e375]: ☁️
+          - generic [ref=e376]:
+            - paragraph [ref=e377]: "2024"
+            - paragraph [ref=e378]: ServiceNow
+        - heading "Cloud-centric Predictive AIOps" [level=3] [ref=e379]
+        - generic [ref=e380]:
+          - generic [ref=e381]: AIOps · Azure
+          - generic [ref=e382]: ITSM + ITOM + SPM
+        - paragraph [ref=e383]: Full AIOps demo on Azure with microservices architecture, custom CSDM modelling, and service mapping from scratch.
+        - generic [ref=e384]:
+          - generic [ref=e385]: Azure
+          - generic [ref=e386]: CSDM
+          - generic [ref=e387]: CMDB
+          - generic [ref=e388]: AIOps
+      - generic [ref=e389]:
+        - generic [ref=e390]:
+          - generic [ref=e391]: 🛡️
+          - generic [ref=e392]:
+            - paragraph [ref=e393]: Sep 2022 – May 2023
+            - paragraph [ref=e394]: NetApp
+        - heading "NetApp Vulnerability Response" [level=3] [ref=e395]
+        - generic [ref=e396]:
+          - generic [ref=e397]: Security · Enterprise
+          - generic [ref=e398]: One IT Team Award (SVP)
+        - paragraph [ref=e399]: End-to-end VR implementation with Rapid7, NVD sync, custom dashboards for VP stakeholders, and full automation of vulnerability lifecycle.
+        - generic [ref=e400]:
+          - generic [ref=e401]: ServiceNow
+          - generic [ref=e402]: Rapid7
+          - generic [ref=e403]: NVD
+          - generic [ref=e404]: Security
+      - generic [ref=e405]:
+        - generic [ref=e406]:
+          - generic [ref=e407]: 🔧
+          - generic [ref=e408]:
+            - paragraph [ref=e409]: 2019 – 2021
+            - paragraph [ref=e410]: Infogain + NetApp
+        - heading "NetApp Enterprise Automation Suite" [level=3] [ref=e411]
+        - generic [ref=e412]:
+          - generic [ref=e413]: Integration
+          - generic [ref=e414]: Multi-system automation
+        - paragraph [ref=e415]: "Suite of integrations: SAP HANA, SAP Ascend, OpsRamp, Azure Translation, Cloud Insights — spanning REST, JDBC, SOAP, and PowerShell."
+        - generic [ref=e416]:
+          - generic [ref=e417]: SAP HANA
+          - generic [ref=e418]: REST
+          - generic [ref=e419]: JDBC
+          - generic [ref=e420]: Azure
+          - generic [ref=e421]: Python
+    - generic [ref=e424]:
+      - generic [ref=e425]: // certifications & awards
+      - generic [ref=e428]:
+        - generic [ref=e429]: CTA
+        - generic [ref=e430]:
+          - paragraph [ref=e431]: Certified Technical Architect
+          - paragraph [ref=e432]: ServiceNow
+      - generic [ref=e433]:
+        - generic [ref=e434]: ArchX
+        - generic [ref=e435]:
+          - paragraph [ref=e436]: Architecture Excellence
+          - paragraph [ref=e437]: ServiceNow
+      - generic [ref=e438]:
+        - paragraph [ref=e439]: + 11 more certifications
+        - generic [ref=e440]:
+          - generic [ref=e441]: Certified Application Developer
+          - generic [ref=e444]: Certified System Administrator
+          - generic [ref=e447]: CIS – IT Service Management
+          - generic [ref=e450]: CIS – Event Management
+          - generic [ref=e453]: CIS – Discovery
+          - generic [ref=e456]: CIS – Application Portfolio Management
+          - generic [ref=e459]: CIS – Hardware Asset Management
+          - generic [ref=e462]: CIS – Vulnerability Response
+          - generic [ref=e465]: CIS – Human Resources
+          - generic [ref=e468]: CIS – Software Asset Management
+          - generic [ref=e471]: ITIL Foundation in IT Service Management
+      - generic [ref=e475]:
+        - generic [ref=e476]: 🏆
+        - generic [ref=e477]:
+          - generic [ref=e478]:
+            - heading "One IT Team Award" [level=4] [ref=e479]
+            - generic [ref=e480]: Jun 2023
+          - paragraph [ref=e481]: NetApp (SVP)
+          - paragraph [ref=e482]: End-to-end IT Vulnerability Response implementation
+      - generic [ref=e484]:
+        - generic [ref=e485]: ⭐
+        - generic [ref=e486]:
+          - generic [ref=e487]:
+            - heading "Spot Award" [level=4] [ref=e488]
+            - generic [ref=e489]: Nov 2022
+          - paragraph [ref=e490]: NetApp
+          - paragraph [ref=e491]: Connect Chat migration to AWA + Agent Chat + Sidebar
+      - generic [ref=e493]:
+        - generic [ref=e494]: ⭐
+        - generic [ref=e495]:
+          - generic [ref=e496]:
+            - heading "Spot Award" [level=4] [ref=e497]
+            - generic [ref=e498]: Jun 2022
+          - paragraph [ref=e499]: NetApp
+          - paragraph [ref=e500]: Cloud Insights integration with ServiceNow
+      - generic [ref=e502]:
+        - generic [ref=e503]: ⭐
+        - generic [ref=e504]:
+          - generic [ref=e505]:
+            - heading "Spot Award" [level=4] [ref=e506]
+            - generic [ref=e507]: Nov 2020
+          - paragraph [ref=e508]: Infogain
+          - paragraph [ref=e509]: End-to-end CSM module implementation
+      - generic [ref=e511]:
+        - generic [ref=e512]: 🌟
+        - generic [ref=e513]:
+          - generic [ref=e514]:
+            - heading "Budding Engineer Award" [level=4] [ref=e515]
+            - generic [ref=e516]: May 2020
+          - paragraph [ref=e517]: Infogain
+          - paragraph [ref=e518]: 10+ automation use cases on ServiceNow
+    - generic [ref=e521]:
+      - generic [ref=e522]: // contact
+      - generic [ref=e527]:
+        - heading "Let's Work Together" [level=2] [ref=e528]
+        - paragraph [ref=e529]: Senior / Staff engineering roles, architecture leadership, and AI/automation consulting.
+        - link "💼 Connect on LinkedIn" [ref=e530] [cursor=pointer]:
+          - /url: https://linkedin.com/in/harishankert
+      - link "💼 LinkedIn linkedin.com/in/ harishankert ↗" [ref=e531] [cursor=pointer]:
+        - /url: https://linkedin.com/in/harishankert
+        - generic [ref=e532]: 💼
+        - generic [ref=e533]:
+          - paragraph [ref=e534]: LinkedIn
+          - paragraph [ref=e535]: linkedin.com/in/harishankert
+        - generic [ref=e536]: ↗
+      - link "🐙 GitHub github.com/ harishankert ↗" [ref=e537] [cursor=pointer]:
+        - /url: https://github.com/harishankert
+        - generic [ref=e538]: 🐙
+        - generic [ref=e539]:
+          - paragraph [ref=e540]: GitHub
+          - paragraph [ref=e541]: github.com/harishankert
+        - generic [ref=e542]: ↗
+  - generic [ref=e545]:
+    - button [ref=e546]
+    - button [ref=e552]
+    - button [ref=e556]
+    - button [ref=e561]

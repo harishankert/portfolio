@@ -1,0 +1,149 @@
+---
+const jobs = [
+  {
+    role: 'Staff Software Engineer',
+    company: 'ServiceNow',
+    period: 'Mar 2026 – Present',
+    location: 'Pune',
+    color: 'violet',
+    tag: 'Current',
+    highlights: [
+      'Architected Deployment Configuration Health Analyzer — adopted by 100+ engineers, supporting Solution Consultants globally with predictive governance and risk mitigation.',
+      'Implemented AIOps LEAP and Autonomous IT capabilities for ITOM: AI-powered event correlation, anomaly detection, and self-healing workflows.',
+      'Achieved 50%+ improvement in ServiceNow instance performance through deep analysis and tuning.',
+      'Built Python + React intelligent analytics platform for multi-instance monitoring with GenAI-assisted development (Claude Code).',
+      'Led cross-BU technical initiatives driving architecture alignment and scalable platform capabilities.',
+    ],
+  },
+  {
+    role: 'Senior Software Engineer',
+    company: 'ServiceNow',
+    period: 'Dec 2023 – Mar 2026',
+    location: 'Pune',
+    color: 'cyan',
+    tag: null,
+    highlights: [
+      'Established and led the Technical Governance Board for Tx WF in DemoHub — standardising development quality across teams.',
+      'Spearheaded 30+ ITOM demo narratives used by 2,500+ Solution Consultants globally with 10,000+ collective narrative uses.',
+      'Architected the Diagnostics Framework Application using Flows, ATF, and custom scripting — reducing demo failures and boosting SC productivity.',
+      'Built CMDB, CSDM, and Service Map frameworks for Alectri with cloud-based AIOps models.',
+      'Developed Cloud-centric Predictive AIOps demo on Azure with custom CSDM modelling from scratch.',
+      'Worked on Agentic AI for ITOM + CMDB, contributing contextual AI experiences.',
+    ],
+  },
+  {
+    role: 'Senior ServiceNow Developer',
+    company: 'NetApp',
+    period: 'Oct 2021 – Dec 2023',
+    location: 'Bengaluru',
+    color: 'amber',
+    tag: null,
+    highlights: [
+      'End-to-end implementation of the Vulnerability Response module with Rapid7 integration — won One IT Team Award by SVP.',
+      'Implemented Advanced Work Assignment, Agent Chat, and Sidebar replacing Connect Support/Connect Chat.',
+      'Built Cloud Insights integration with ServiceNow using Python (pysnow) deployed on Linux servers.',
+      'Designed and implemented Custom Hardware Asset Management application.',
+      'Implemented MS Teams integration to notify users when MID servers go down.',
+    ],
+  },
+  {
+    role: 'Software Engineer',
+    company: 'Infogain',
+    period: 'Dec 2019 – Oct 2021',
+    location: 'Noida',
+    color: 'green',
+    tag: null,
+    highlights: [
+      'Designed SAP HANA integration with ServiceNow via REST, PowerShell, and JDBC for database cloning request management.',
+      'Implemented SAP Ascend platform integration with ServiceNow for CRUD and access automation.',
+      'Implemented CSM and ITSM modules from scratch on a z Boot instance.',
+      'Created Internationalization feature translating dynamic email content to recipients\' preferred languages.',
+    ],
+  },
+  {
+    role: 'Associate Software Engineer',
+    company: 'InfoBeans',
+    period: 'Mar 2018 – Nov 2019',
+    location: 'Indore',
+    color: 'violet',
+    tag: null,
+    highlights: [
+      'Implementation and administration of ServiceNow platform.',
+      'Created Catalog Items, Record Producers, Workflows, UI macros, Client Scripts, Script Includes.',
+      'Customised Widgets and Pages in the Service Portal with inter-widget communication.',
+      'Designed and implemented Custom Scoped Application for Reporting Cloud integration.',
+      'Implemented Service Catalog and Service Portal for DHL Prague with smart categorisation logic.',
+    ],
+  },
+];
+
+const colorMap: Record<string, { dot: string; border: string }> = {
+  violet: { dot: 'bg-violet-500', border: 'border-violet-500/30' },
+  cyan:   { dot: 'bg-cyan-500',   border: 'border-cyan-500/30' },
+  amber:  { dot: 'bg-amber-500',  border: 'border-amber-500/30' },
+  green:  { dot: 'bg-green-500',  border: 'border-green-500/30' },
+};
+---
+
+<section id="experience" class="py-32 px-6">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-16 reveal">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-violet-500/30 bg-violet-500/10 text-violet-300 text-xs font-medium mb-6 font-['JetBrains_Mono'] uppercase tracking-widest">
+        // experience
+      </div>
+      <h2 class="section-heading text-white">
+        Career <span class="gradient-text">Journey</span>
+      </h2>
+      <p class="text-[#9b9aaa] mt-4 max-w-xl mx-auto">
+        8+ years of progressive growth across enterprise platforms, AI systems, and global product teams.
+      </p>
+    </div>
+
+    <div class="relative">
+      <!-- Timeline line -->
+      <div class="absolute left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-violet-500/50 via-violet-500/20 to-transparent -translate-x-1/2 hidden md:block"></div>
+
+      <div class="space-y-8">
+        {jobs.map((job, i) => {
+          const c = colorMap[job.color];
+          const isLeft = i % 2 === 0;
+          return (
+            <div class={`reveal relative flex flex-col md:flex-row gap-8 ${isLeft ? '' : 'md:flex-row-reverse'}`} style={`transition-delay: ${i * 0.1}s`}>
+              <!-- Timeline dot -->
+              <div class={`hidden md:block absolute left-1/2 -translate-x-1/2 top-8 w-3 h-3 rounded-full z-10 ${c.dot}`}></div>
+
+              <!-- Card -->
+              <div class="md:w-[calc(50%-2rem)] card-surface rounded-2xl p-7">
+                <div class="flex items-start justify-between gap-4 mb-4">
+                  <div>
+                    <h3 class="font-bold text-white text-lg leading-tight">{job.role}</h3>
+                    <p class="font-semibold text-sm mt-0.5 text-cyan-400">{job.company}</p>
+                  </div>
+                  <div class="shrink-0 text-right">
+                    {job.tag && (
+                      <span class="inline-block px-2.5 py-1 rounded-full bg-green-500/15 border border-green-500/30 text-green-300 text-xs font-semibold mb-1">
+                        {job.tag}
+                      </span>
+                    )}
+                    <p class="text-[#9b9aaa] text-xs font-['JetBrains_Mono']">{job.period}</p>
+                    <p class="text-[#9b9aaa] text-xs">{job.location}</p>
+                  </div>
+                </div>
+                <ul class="space-y-2">
+                  {job.highlights.map((h) => (
+                    <li class="flex gap-2 text-sm text-[#9b9aaa] leading-relaxed">
+                      <span class={`mt-2 w-1.5 h-1.5 rounded-full ${c.dot} shrink-0`}></span>
+                      <span>{h}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              <div class="hidden md:block md:w-[calc(50%-2rem)]"></div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+</section>

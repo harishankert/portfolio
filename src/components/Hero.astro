@@ -1,0 +1,125 @@
+---
+---
+
+<section id="hero" class="relative min-h-screen flex items-center px-6 pt-20">
+  <!-- Grid decoration -->
+  <div class="absolute inset-0 bg-[linear-gradient(rgba(139,92,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.03)_1px,transparent_1px)] bg-[size:60px_60px] pointer-events-none"></div>
+
+  <div class="max-w-6xl mx-auto w-full py-20">
+    <div class="grid lg:grid-cols-5 gap-16 items-center">
+
+      <!-- Left: Main intro (3/5) -->
+      <div class="lg:col-span-3">
+        <h1 class="font-['Space_Grotesk'] text-6xl md:text-8xl font-extrabold leading-[0.95] tracking-tight mb-6">
+          <span class="gradient-text">Harish</span><span class="text-white">anker</span><br />
+          <span class="text-white">Tripathi</span>
+        </h1>
+
+        <div class="flex items-center gap-3 mb-8">
+          <div class="h-px w-12 bg-gradient-to-r from-violet-500 to-cyan-400"></div>
+          <p class="text-cyan-400 font-['JetBrains_Mono'] text-sm font-medium tracking-widest uppercase">
+            Staff Software Engineer & ServiceNow Architect
+          </p>
+        </div>
+
+        <p class="text-[#9b9aaa] text-lg leading-relaxed mb-4">
+          Staff Software Engineer and Solutions Architect with <span class="text-white font-semibold">8+ years</span> delivering enterprise-scale solutions on the ServiceNow platform.
+        </p>
+        <p class="text-[#9b9aaa] text-lg leading-relaxed mb-10">
+          Deep expertise across <span class="text-violet-400 font-semibold">ITSM, ITOM, CSM, HRSD, SecOps, Event Management, Vulnerability Response</span> and <span class="text-violet-400 font-semibold">Discovery</span> — with a strong focus on <span class="text-cyan-400 font-semibold">Agentic Workflows</span>, autonomous AI systems, and next-generation IT operations that drive real business impact.
+        </p>
+
+        <div class="flex flex-wrap gap-4 mb-14">
+          <a
+            href="#projects"
+            class="px-6 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-violet-600 to-cyan-500 hover:from-violet-500 hover:to-cyan-400 transition-all hover:shadow-xl hover:shadow-violet-500/30 hover:-translate-y-0.5"
+          >
+            View Projects
+          </a>
+          <a
+            href="#contact"
+            class="px-6 py-3 rounded-xl font-semibold text-[#9b9aaa] border border-violet-500/30 hover:border-violet-400 hover:text-white transition-all hover:-translate-y-0.5"
+          >
+            Get in Touch
+          </a>
+          <a
+            href="https://linkedin.com/in/harishankert"
+            target="_blank"
+            rel="noopener"
+            class="px-6 py-3 rounded-xl font-semibold text-[#9b9aaa] border border-violet-500/30 hover:border-cyan-400 hover:text-cyan-300 transition-all hover:-translate-y-0.5"
+          >
+            LinkedIn ↗
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="flex flex-wrap gap-10">
+          <div>
+            <p class="text-4xl font-extrabold font-['Space_Grotesk'] gradient-text">8+</p>
+            <p class="text-[#9b9aaa] text-sm mt-1">Years Experience</p>
+          </div>
+          <div class="w-px bg-violet-500/20"></div>
+          <div>
+            <p class="text-4xl font-extrabold font-['Space_Grotesk'] gradient-text">13</p>
+            <p class="text-[#9b9aaa] text-sm mt-1">Certifications</p>
+          </div>
+          <div class="w-px bg-violet-500/20"></div>
+          <div>
+            <p class="text-4xl font-extrabold font-['Space_Grotesk'] gradient-text">5</p>
+            <p class="text-[#9b9aaa] text-sm mt-1">Industry Awards</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Highlights panel (2/5) -->
+      <div class="lg:col-span-2 flex flex-col gap-4">
+
+        <!-- Current role -->
+        <div class="glow-border rounded-2xl p-6 bg-[#13131a]">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+            <span class="text-green-400 text-xs font-semibold uppercase tracking-wider">Currently at</span>
+          </div>
+          <p class="text-white font-bold text-lg">ServiceNow</p>
+          <p class="text-[#9b9aaa] text-sm mt-1">Staff Software Engineer · Pune, India</p>
+        </div>
+
+        <!-- What I do -->
+        <div class="card-surface rounded-2xl p-6">
+          <p class="text-xs text-[#9b9aaa] uppercase tracking-widest mb-5 font-medium">What I do</p>
+          <div class="space-y-4">
+            {[
+              { icon: '🏛️', label: 'Solution Architecture & Platform Design', color: 'text-violet-400' },
+              { icon: '🏗️', label: 'ServiceNow Architecture', color: 'text-cyan-400' },
+              { icon: '🔗', label: 'Enterprise System Integrations', color: 'text-amber-400' },
+              { icon: '⚡', label: 'Performance Engineering & Optimisation', color: 'text-green-400' },
+            ].map(({ icon, label, color }) => (
+              <div class="flex items-center gap-3">
+                <span class="text-lg w-7 shrink-0">{icon}</span>
+                <span class={`text-sm font-medium ${color}`}>{label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Top cert badge -->
+        <div class="card-surface rounded-2xl p-5 flex items-center gap-4">
+          <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-violet-600 to-cyan-500 flex items-center justify-center text-white text-xs font-bold shrink-0 text-center leading-tight">
+            CTA<br/>ArchX
+          </div>
+          <div>
+            <p class="text-white font-bold text-sm">ServiceNow Certified</p>
+            <p class="text-[#9b9aaa] text-xs mt-0.5">Technical Architect · Architecture Excellence</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-[#9b9aaa] text-xs">
+      <span>Scroll to explore</span>
+      <div class="w-px h-8 bg-gradient-to-b from-violet-400 to-transparent animate-pulse"></div>
+    </div>
+  </div>
+</section>

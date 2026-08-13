@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# AI agent discovery
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Human-readable AI summary
+# See /llms.txt for a structured plain-text profile for AI agents
+
+Sitemap: https://harishankert.dev/sitemap.xml

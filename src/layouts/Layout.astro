@@ -1,0 +1,199 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'Harishanker Tripathi — Staff Software Engineer & ServiceNow Architect',
+  description = 'Harishanker Tripathi is a Staff Software Engineer and ServiceNow Solutions Architect with 8+ years of experience delivering enterprise-scale solutions across ITSM, ITOM, CSM, HRSD, SecOps, Vulnerability Response, Discovery, and Agentic Workflows. Certified Technical Architect (CTA), Architecture Excellence (ArchX), and 11 additional ServiceNow certifications. Based in Pune, India.',
+} = Astro.props;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Harishanker Tripathi",
+  "jobTitle": "Staff Software Engineer & ServiceNow Solutions Architect",
+  "description": "Staff Software Engineer and ServiceNow Solutions Architect with 8+ years designing enterprise-scale solutions across ITSM, ITOM, CSM, HRSD, SecOps, Event Management, Vulnerability Response, Discovery, and Agentic Workflows.",
+  "url": "https://harishankert.dev",
+  "sameAs": [
+    "https://linkedin.com/in/harishankert",
+    "https://github.com/harishankert"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Pune",
+    "addressRegion": "Maharashtra",
+    "addressCountry": "IN"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "ServiceNow",
+    "url": "https://www.servicenow.com"
+  },
+  "alumniOf": [
+    { "@type": "Organization", "name": "NetApp" },
+    { "@type": "Organization", "name": "Infogain" },
+    { "@type": "Organization", "name": "InfoBeans" }
+  ],
+  "knowsAbout": [
+    "ServiceNow", "ITSM", "ITOM", "CSM", "HRSD", "SecOps", "Event Management",
+    "Vulnerability Response", "Discovery", "Flow Designer", "IntegrationHub",
+    "Agentic AI", "Agentic Workflows", "Now Assist", "Virtual Agent",
+    "Autonomous Agent Development", "Generative AI", "Prompt Engineering",
+    "AIOps", "JavaScript", "Python", "AngularJS", "Node.js", "React",
+    "REST API", "SOAP", "JDBC", "PowerShell", "ServiceNow Architecture",
+    "Service Portal", "Custom Scoped Applications", "Enterprise Integrations"
+  ],
+  "hasCredential": [
+    { "@type": "EducationalOccupationalCredential", "name": "ServiceNow Certified Technical Architect (CTA)", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "Architecture Excellence (ArchX)", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "Certified Application Developer", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "Certified System Administrator", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "CIS – IT Service Management", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "CIS – Event Management", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "CIS – Discovery", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "CIS – Vulnerability Response", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "CIS – Hardware Asset Management", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "CIS – Software Asset Management", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "CIS – Human Resources", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "CIS – Application Portfolio Management", "credentialCategory": "Professional Certification" },
+    { "@type": "EducationalOccupationalCredential", "name": "ITIL Foundation in IT Service Management", "credentialCategory": "Professional Certification" }
+  ]
+};
+---
+
+<!doctype html>
+<html lang="en" itemscope itemtype="https://schema.org/ProfilePage">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Core SEO -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="author" content="Harishanker Tripathi" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <meta name="keywords" content="Harishanker Tripathi, ServiceNow Architect, Staff Software Engineer, ITSM, ITOM, CSM, HRSD, SecOps, ServiceNow CTA, Agentic AI, Now Assist, Vulnerability Response, Discovery, Flow Designer, IntegrationHub, ServiceNow Developer, Enterprise Architecture, AIOps, Pune India" />
+    <link rel="canonical" href="https://harishankert.dev" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content="https://harishankert.dev" />
+    <meta property="og:site_name" content="Harishanker Tripathi — Portfolio" />
+    <meta property="profile:first_name" content="Harishanker" />
+    <meta property="profile:last_name" content="Tripathi" />
+    <meta property="profile:username" content="harishankert" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+
+    <!-- Structured Data: Person -->
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#0a0a0f] text-[#f1f0ff] antialiased">
+    <!-- Background orbs -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none z-0">
+      <div class="absolute top-[-20%] left-[-10%] w-[600px] h-[600px] rounded-full bg-violet-600/10 blur-[120px]"></div>
+      <div class="absolute top-[40%] right-[-10%] w-[500px] h-[500px] rounded-full bg-cyan-500/8 blur-[120px]"></div>
+      <div class="absolute bottom-[-10%] left-[30%] w-[400px] h-[400px] rounded-full bg-amber-500/6 blur-[100px]"></div>
+    </div>
+
+    <!-- Nav -->
+    <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-[#0a0a0f]/80 border-b border-violet-500/10">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="#hero" class="font-['Space_Grotesk'] font-bold text-lg tracking-tight">
+          <span class="gradient-text">HT</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8 text-sm font-medium text-[#9b9aaa]">
+          <a href="#about" class="hover:text-violet-400 transition-colors">About</a>
+          <a href="#skills" class="hover:text-violet-400 transition-colors">Skills</a>
+          <a href="#experience" class="hover:text-violet-400 transition-colors">Experience</a>
+          <a href="#projects" class="hover:text-violet-400 transition-colors">Projects</a>
+          <a href="#certifications" class="hover:text-violet-400 transition-colors">Certs</a>
+          <a href="#contact" class="hover:text-violet-400 transition-colors">Contact</a>
+        </div>
+        <a
+          href="https://linkedin.com/in/harishankert"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-sm font-semibold px-4 py-2 rounded-lg bg-violet-600 hover:bg-violet-500 text-white transition-all hover:shadow-lg hover:shadow-violet-500/25"
+        >
+          Hire Me
+        </a>
+      </div>
+    </nav>
+
+    <main class="relative z-10">
+      <slot />
+    </main>
+
+
+    <script>
+      // Active nav link on scroll
+      const sections = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            navLinks.forEach((link) => {
+              const href = link.getAttribute('href');
+              if (href === '#' + entry.target.id) {
+                link.classList.add('text-violet-400');
+              } else {
+                link.classList.remove('text-violet-400');
+              }
+            });
+          }
+        });
+      }, { rootMargin: '-40% 0px -40% 0px' });
+
+      sections.forEach((s) => observer.observe(s));
+
+      // Reveal on scroll
+      const reveals = document.querySelectorAll('.reveal');
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      reveals.forEach((el) => revealObserver.observe(el));
+    </script>
+
+    <style>
+      .reveal {
+        opacity: 0;
+        transform: translateY(24px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+      }
+      .reveal.revealed {
+        opacity: 1;
+        transform: none;
+      }
+      h1, h2, h3, h4, h5 {
+        font-family: 'Space Grotesk', system-ui, sans-serif;
+      }
+    </style>
+  </body>
+</html>

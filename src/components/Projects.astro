@@ -1,0 +1,166 @@
+---
+const projects = [
+  {
+    title: 'Deployment Configuration Health Analyzer',
+    period: 'Jan 2026 – Mar 2026',
+    company: 'ServiceNow',
+    emoji: '🔍',
+    color: 'violet',
+    badge: 'AI · Platform Architecture',
+    impact: '100+ engineers · Global scale',
+    description: 'Designed and architected an intelligent application to evaluate deployment quality, impact, and adherence to best practices — ensuring reliable, consistent demo environments.',
+    bullets: [
+      'Intelligent validation logic for proactive misconfiguration and risk detection',
+      'Predictive governance and risk mitigation reducing deployment failures',
+      'Adopted by 100+ DemoHub engineers supporting thousands of SCs globally',
+    ],
+    tags: ['ServiceNow', 'Flow Designer', 'ATF', 'Scripting', 'Governance'],
+  },
+  {
+    title: 'DemoHub Diagnostics Framework',
+    period: 'Feb 2024 – Aug 2025',
+    company: 'ServiceNow',
+    emoji: '🛠️',
+    color: 'cyan',
+    badge: 'Automation · DevOps',
+    impact: '2,500+ SCs · 10,000+ uses',
+    description: 'Designed the Diagnostics Framework to auto-detect and resolve DemoHub issues — dramatically improving demo reliability and SC productivity at global scale.',
+    bullets: [
+      'Integrated Flows, ATF, and custom scripting to automate failure point resolution',
+      'Reduced manual intervention across common DemoHub failure scenarios',
+      'Conducted end-user enablement sessions for developers and support teams',
+    ],
+    tags: ['ServiceNow', 'Flow Designer', 'ATF', 'Scripting', 'Automation'],
+  },
+  {
+    title: 'Cloud-centric Predictive AIOps',
+    period: '2024',
+    company: 'ServiceNow',
+    emoji: '☁️',
+    color: 'amber',
+    badge: 'AIOps · Azure · AI',
+    impact: 'ITSM + ITOM + SPM',
+    description: 'Developed a full Cloud-centric Predictive AIOps demo based on microservices architecture on Azure, with custom CSDM modelling and service mapping from scratch.',
+    bullets: [
+      'Built CMDB, CSDM, and Service Map for Alectri with cloud-based AIOps models',
+      'Microservices-based architecture deployed on Azure with custom service mapping',
+      'Delivered cross-product solution demos combining ITSM, ITOM, and SPM',
+    ],
+    tags: ['ServiceNow', 'Azure', 'CSDM', 'CMDB', 'AIOps', 'Microservices'],
+  },
+  {
+    title: 'NetApp Vulnerability Response',
+    period: 'Sep 2022 – May 2023',
+    company: 'NetApp',
+    emoji: '🛡️',
+    color: 'green',
+    badge: 'Security · Enterprise',
+    impact: 'One IT Team Award (SVP)',
+    description: 'End-to-end implementation of the Vulnerability Response module with Rapid7 integration, custom solution for Vulnerability Solution Management, and NVD sync.',
+    bullets: [
+      'Full Rapid7 integration with NVD attribute synchronisation',
+      'CI Lookup, Classification, Assignment, Risk Calculators, and Auto-Close rules',
+      'Custom dashboards and reports for VP-level stakeholders',
+    ],
+    tags: ['ServiceNow', 'Rapid7', 'NVD', 'Security', 'ITSM'],
+  },
+  {
+    title: 'Intelligent Analytics Platform',
+    period: '2025 – Present',
+    company: 'ServiceNow',
+    emoji: '📊',
+    color: 'violet',
+    badge: 'AI · Python · React',
+    impact: 'Multi-instance · Real-time',
+    description: 'Built a Python and React-based intelligent analytics platform for multi-instance ServiceNow environment monitoring with real-time anomaly detection and GenAI-assisted development.',
+    bullets: [
+      'Real-time anomaly detection and AI-driven pattern recognition',
+      'Multi-instance performance monitoring and proactive issue identification',
+      'GenAI-assisted development with Claude Code for accelerated iteration',
+    ],
+    tags: ['Python', 'React', 'Claude Code', 'GenAI', 'Analytics'],
+  },
+  {
+    title: 'NetApp Enterprise Automation Suite',
+    period: 'Dec 2019 – Apr 2021',
+    company: 'Infogain + NetApp',
+    emoji: '🔧',
+    color: 'cyan',
+    badge: 'Integration · Enterprise',
+    impact: 'Multi-system automation',
+    description: 'Suite of enterprise integrations connecting ServiceNow with SAP HANA, SAP Ascend, OpsRamp, MS Azure Translation, and Cloud Insights across REST, JDBC, SOAP, and PowerShell.',
+    bullets: [
+      'SAP HANA database cloning management via REST, JDBC, and PowerShell',
+      'MS Azure Dynamic Translation with outbound email language preference support',
+      'OpsRamp cloud monitoring integration for NetApp Storage Clusters',
+    ],
+    tags: ['ServiceNow', 'SAP HANA', 'REST', 'JDBC', 'Azure', 'Python'],
+  },
+];
+
+const colorMap: Record<string, { gradient: string; dot: string; tag: string; glow: string }> = {
+  violet: { gradient: 'from-violet-600 to-violet-400', dot: 'bg-violet-400', tag: 'bg-violet-500/10 border-violet-500/25 text-violet-300', glow: 'shadow-violet-500/20' },
+  cyan:   { gradient: 'from-cyan-600 to-cyan-400',     dot: 'bg-cyan-400',   tag: 'bg-cyan-500/10 border-cyan-500/25 text-cyan-300',       glow: 'shadow-cyan-500/20' },
+  amber:  { gradient: 'from-amber-600 to-amber-400',   dot: 'bg-amber-400',  tag: 'bg-amber-500/10 border-amber-500/25 text-amber-300',     glow: 'shadow-amber-500/20' },
+  green:  { gradient: 'from-green-600 to-green-400',   dot: 'bg-green-400',  tag: 'bg-green-500/10 border-green-500/25 text-green-300',     glow: 'shadow-green-500/20' },
+};
+---
+
+<section id="projects" class="py-32 px-6">
+  <div class="max-w-6xl mx-auto">
+    <div class="text-center mb-16 reveal">
+      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-violet-500/30 bg-violet-500/10 text-violet-300 text-xs font-medium mb-6 font-['JetBrains_Mono'] uppercase tracking-widest">
+        // projects
+      </div>
+      <h2 class="section-heading text-white">
+        What I've <span class="gradient-text">Built</span>
+      </h2>
+      <p class="text-[#9b9aaa] mt-4 max-w-xl mx-auto">
+        High-impact enterprise solutions across AI, platform architecture, security, and integrations.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {projects.map((proj, i) => {
+        const c = colorMap[proj.color];
+        return (
+          <div class={`reveal card-surface rounded-2xl p-7 flex flex-col hover:shadow-xl ${c.glow} transition-all`} style={`transition-delay: ${i * 0.08}s`}>
+            <div class="flex items-start justify-between gap-3 mb-4">
+              <div class={`w-12 h-12 rounded-xl bg-gradient-to-br ${c.gradient} flex items-center justify-center text-2xl shrink-0 shadow-lg`}>
+                {proj.emoji}
+              </div>
+              <div class="text-right">
+                <span class="text-xs text-[#9b9aaa] font-['JetBrains_Mono']">{proj.period}</span>
+                <p class="text-xs text-[#9b9aaa]">{proj.company}</p>
+              </div>
+            </div>
+
+            <h3 class="font-bold text-white text-base leading-snug mb-2">{proj.title}</h3>
+
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class={`text-xs px-2.5 py-1 rounded-full border font-medium ${c.tag}`}>{proj.badge}</span>
+              <span class="text-xs px-2.5 py-1 rounded-full border border-white/10 text-[#9b9aaa]">{proj.impact}</span>
+            </div>
+
+            <p class="text-[#9b9aaa] text-sm leading-relaxed mb-4 flex-1">{proj.description}</p>
+
+            <ul class="space-y-1.5 mb-5">
+              {proj.bullets.map((b) => (
+                <li class="flex gap-2 text-xs text-[#9b9aaa]">
+                  <span class={`mt-1.5 w-1.5 h-1.5 rounded-full ${c.dot} shrink-0`}></span>
+                  {b}
+                </li>
+              ))}
+            </ul>
+
+            <div class="flex flex-wrap gap-1.5 mt-auto pt-4 border-t border-white/5">
+              {proj.tags.map((tag) => (
+                <span class="text-xs px-2 py-0.5 rounded bg-[#1a1a24] text-[#9b9aaa] border border-white/5">{tag}</span>
+              ))}
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>
